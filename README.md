@@ -51,7 +51,6 @@ By entering basic personal details and fitness preferences, users receive person
 
 ## 📁 Files and Structure
 
-
 ```plaintext
 AI-Yoga-Recommender/
 │
@@ -61,15 +60,17 @@ AI-Yoga-Recommender/
 ├── README.md             # Project documentation
 └── screenshots/          # (Optional) Screenshots of the web app interface
 
-
 ---
 
 ## 🩺 Advantages
 
-- Provides **personalized** yoga recommendations.  
+- Provides **personalized yoga recommendations**.  
 - Easy-to-use **web interface**.  
 - Includes **diet and precautionary advice**.  
 - Encourages **well-being and mindfulness**.  
+- Suitable for all age groups and fitness levels.  
+- Helps users save time in choosing the right yoga poses.  
+- Can be used as a guide for beginners as well as experienced practitioners.
 
 ---
 
@@ -77,7 +78,8 @@ AI-Yoga-Recommender/
 
 - Limited number of yoga asanas in dataset.  
 - Recommendations are based on predefined data, not real-time body tracking.  
-- Works best for **general wellness**, not medical diagnosis.
+- Works best for **general wellness**, not medical diagnosis.  
+- Requires an internet connection to run the web application.
 
 ---
 
@@ -86,7 +88,9 @@ AI-Yoga-Recommender/
 - Integrating **pose detection** using a webcam for real-time posture correction.  
 - Expanding the dataset with more yoga poses and diet options.  
 - Adding **AI-based voice guidance** for yoga sessions.  
-- Building a **mobile app** version.
+- Building a **mobile app** version.  
+- Including progress tracking and daily yoga reminders.  
+- Introducing feedback-based learning to improve recommendations.
 
 ---
 
@@ -120,9 +124,15 @@ It learns from the dataset to understand which yoga poses are best suited for di
 1. Install the dependencies:
    ```bash
    pip install -r requirements.txt
-2. Run the app:
+2.  Run the app:
 
-    streamlit run app.py
+streamlit run app.py
 
 
 Open the local link shown in the terminal to use the web app.
+
+✨ Developed By
+
+Trusha Shirsat
+AI Yoga Recommender Project
+(Computer Engineering)

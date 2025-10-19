@@ -51,14 +51,15 @@ By entering basic personal details and fitness preferences, users receive person
 
 ## 📁 Files and Structure
 
+
+```plaintext
 AI-Yoga-Recommender/
 │
-├── app.py # Main Streamlit app
-├── asana_dataset.csv # Dataset containing yoga asanas, benefits, etc.
-├── requirements.txt # Required Python libraries
-├── README.md # Project documentation
-└── screenshots/ # Optional - screenshots of app
-
+├── app.py                # Main Streamlit app
+├── asana_dataset.csv     # Dataset containing yoga asanas, focus parts, benefits, precautions
+├── requirements.txt      # Required Python libraries
+├── README.md             # Project documentation
+└── screenshots/          # (Optional) Screenshots of the web app interface
 
 
 ---
